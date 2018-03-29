@@ -1,6 +1,11 @@
 # Unscented Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
+Note On the Project:
+
+For tuning purpose , I have saved the NIS values to a text file (radarVals.txt and lidarVals.txt) by following the method given on this (https://stackoverflow.com/questions/14892356/i-want-to-write-some-data-into-a-txt-file-using-c-opencv) stackoverflow Q&A. I think there might be a better way but being relatively new to C++ I have followed the process given there. Most of the code for this project has been adapted from the classroom. I have put in a snapshot of the final RMSE values in the 'Visualization' folder. 
+![alt text](https://github.com/arpitsri3/Unscented-Kalman-P7/blob/master/Visualization/RMSE_Vals.PNG)
+
 In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
